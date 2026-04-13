@@ -69,9 +69,13 @@ header {
     flex-direction: row;
     margin-top: 60px;
     transition: 0.3s ease;
+    cursor: pointer;
 }
 
-.fotos:hover {
+.thiago:hover {
     transform: scale(1.1);
+}
 
+.kaua:hover {
+    transform: scale(1.1);
 }
