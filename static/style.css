@@ -11,7 +11,7 @@ body {
 
 header {
     /* Config do background e posição */
-    background-color: rgb(255, 220, 176);
+    background: linear-gradient(to right, rgb(0, 0, 87), rgb(0, 113, 151));
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -19,7 +19,7 @@ header {
     justify-content: center;
     text-align: center;
     width: 100%;
-    height: 80px;
+    height: 100px;
     /* Config do background e posição */
 
     h2 {
@@ -28,11 +28,13 @@ header {
         font-size: 25px;
         margin-top: 10px;
     }
-    h1 {
-        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-        color: rgb(221, 107, 0)
-    }
 
+    h1 {
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(255, 208, 0);
+        margin-top: -10px;
+        font-size: 50px;
+    }
 }
 
 .landing {
@@ -41,7 +43,7 @@ header {
     align-items: center;
     height: 100vh;
     color: white;
-    font-size: 24px;
+    font-size: 34px;
     margin-top: 40px;
 }
 
@@ -61,8 +63,15 @@ header {
     margin: 0 20px;
 }
 
+
 .fotos {
     display: flex;
     flex-direction: row;
     margin-top: 60px;
+    transition: 0.3s ease;
+}
+
+.fotos:hover {
+    transform: scale(1.1);
+
 }
