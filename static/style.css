@@ -4,14 +4,17 @@
 
 body {
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 header {
     /* Config do background e posição */
     background-color: rgb(255, 220, 176);
-    position: fixed;
     background-size: cover;
-    display: flexbox;
+    display: flex;
+    flex-direction: column;
     background-size: cover;
     justify-content: center;
     text-align: center;
@@ -30,4 +33,36 @@ header {
         color: rgb(221, 107, 0)
     }
 
+}
+
+.landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+.kaua {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+
+.thiago {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+
+.fotos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
 }
