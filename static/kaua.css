@@ -7,7 +7,9 @@ body{
     background-color: black;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .titulo {
@@ -22,9 +24,10 @@ body{
     flex-direction: column;
     align-items: center;
     color: white;
-    margin-top: 40px;
+    margin-top: 20px;
     width: 100%;
     height: auto;
+    margin-bottom: 0.3em;
 }
 
 .foto img {
@@ -44,7 +47,7 @@ body{
     flex-direction: column;
     align-items: center;
     color: white;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .contato {
@@ -53,8 +56,12 @@ body{
     align-items: center;
     color: white;
     font-size: 20px;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 0.6em;
+}
+
+.contato i {
+    margin-left: 2px;
 }
 
 footer {
@@ -67,46 +74,61 @@ footer {
 .paragrafo {
     font-family: sans-serif;
     margin-top: 2px;
-    width: 40%;
-    font-size: 20px;
-    margin-bottom: 34px;
+    width: 60%;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
 .lista {
     font-family: sans-serif;
-    margin-top: 0.5em;
-    font-size: 20.4px;
+    margin-top: 0.3em;
+    font-size: 18px;
     padding: 0.2em;
+    list-style: none;
+    padding-left: 0;
 }
 
-#html {
+.lista li {
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+    margin-bottom: 0.4em;
+}
+
+.lista i {
+    display: inline-flex;
+    align-items: center;
+}
+
+.html {
     color: rgb(255, 208, 0);
 }
-#css {
+
+.css {
     color: rgb(0, 113, 151);
 }
-#javascript {
+.javascript {
     color: rgb(255, 223, 0);
 }
-#react {
+.react {
     color: rgb(97, 218, 251);
 }
-#nodejs {
+.nodejs {
     color: rgb(0, 113, 151);
 }
-#python {
+.python {
     color: rgb(255, 223, 0);
 }
-#git {
+.git {
     color: rgb(255, 208, 0);
 }
-#github {
+.github {
     color: rgb(255, 255, 255);
 }
-#postgresql {
+.postgresql {
     color: rgb(0, 113, 151);
 }
-#mysql {
+.mysql {
     color: rgb(255, 223, 0);
 }
 
