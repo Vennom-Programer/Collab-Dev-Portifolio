@@ -1,0 +1,11 @@
+body {
+    background: linear-gradient(to right, rgb(0, 0, 104), rgb(30, 0, 65));
+}
+
+.introducao {
+    text-align: center;
+    color: antiquewhite;
+    background-color: aqua;
+    background: -webkit-linear-gradient(blue, black, rgb(114, 0, 0));
+
+}
